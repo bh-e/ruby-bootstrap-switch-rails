@@ -3,11 +3,11 @@ Upstream-Name: bootstrap-switch-rails
 Source: https://github.com/manuelvanrijn/bootstrap-switch-rails
 
 Files: *
-Copyright: Manuel van Rijn <manuel@manuelvanrijn.nl>
+Copyright: 2016 Manuel van Rijn <manuel@manuelvanrijn.nl>
 License: Expat
 
 Files: debian/*
-Copyright: Abhijith PA <abhijith@openmailbox.org>
+Copyright: 2016 Abhijith PA <abhijith@openmailbox.org>
 License: Expat
 Comment: the Debian packaging is licensed under the same terms as the original package.
 
