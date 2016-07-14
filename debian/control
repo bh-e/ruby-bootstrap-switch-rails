@@ -1,0 +1,24 @@
+Source: ruby-bootstrap-switch-rails
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Abhijith PA<abhijith@openmailbox.org>
+Build-Depends: debhelper (>= 9~),
+               gem2deb
+Standards-Version: 3.9.8
+Vcs-Git: https://anonscm.debian.org/git/pkg-ruby-extras/ruby-bootstrap-switch-rails.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-bootstrap-switch-rails.git
+Homepage: https://github.com/manuelvanrijn/bootstrap-switch-rails
+Testsuite: autopkgtest-pkg-ruby
+XS-Ruby-Versions: all
+
+Package: ruby-bootstrap-switch-rails
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby | ruby-interpreter,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: an asset gemification of the bootstrap-switch plugin
+ bootstrap-switch-rails is a small gem for putting bootstrap-switch 
+ into the Rails asset pipeline. It provides the bootstrap-switch plugin
+ as a Rails engine to use it within the asset pipeline. 

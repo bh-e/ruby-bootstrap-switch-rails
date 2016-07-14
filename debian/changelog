@@ -1,0 +1,5 @@
+ruby-bootstrap-switch-rails (3.3.3-1) unstable; urgency=medium
+
+  * Initial release (Closes: #831231)
+
+ -- Abhijith PA <abhijith@openmailbox.org>  Thu, 14 Jul 2016 06:16:25 -0400
