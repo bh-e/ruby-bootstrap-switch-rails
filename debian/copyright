@@ -6,6 +6,10 @@ Files: *
 Copyright: 2016 Manuel van Rijn <manuel@manuelvanrijn.nl>
 License: Expat
 
+Files: vendor/*
+Copyright: Mattia Larentis 
+License: Expat
+
 Files: debian/*
 Copyright: 2016 Abhijith PA <abhijith@openmailbox.org>
 License: Expat
